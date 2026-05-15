@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/athena-session-start-hook.cjs\""
+      }
+    ],
+    "postToolUse": [
+      {
+        "matcher": "Bash|Read|Write|Edit",
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/athena-hook.cjs\""
+      }
+    ],
+    "preToolUse": [
+      {
+        "matcher": "Edit|Write|Bash",
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/athena-init-hook.cjs\""
+      }
+    ]
+  }
+}

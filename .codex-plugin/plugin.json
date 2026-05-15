@@ -1,0 +1,51 @@
+{
+  "name": "athena",
+  "version": "2.3.0",
+  "description": "Workflow orchestrator: brainstorm, plan, build (per-task two-stage review + wave verification), debug, review, ship. 17 skills, 6 agents, smart routing, enforced gates.",
+  "author": {
+    "name": "bencrooks-dev",
+    "url": "https://github.com/bencrooks-dev/athena"
+  },
+  "homepage": "https://github.com/bencrooks-dev/athena",
+  "repository": "https://github.com/bencrooks-dev/athena",
+  "license": "MIT",
+  "keywords": [
+    "workflow",
+    "orchestration",
+    "tdd",
+    "debugging",
+    "code-review",
+    "coordinator",
+    "brainstorming",
+    "agents",
+    "parallel-execution",
+    "git-worktree",
+    "visual-mockups",
+    "multi-platform",
+    "skill-authoring",
+    "plugin",
+    "verification",
+    "hooks",
+    "auto-trigger"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Athena",
+    "shortDescription": "Active multi-agent coordination with enforced discipline for coding agents",
+    "longDescription": "Athena is a full-lifecycle workflow orchestrator. Brainstorm → plan → build → debug → review → ship. The build phase runs per-task two-stage review (spec compliance, then quality) plus wave-level verification. State persists in .athena-state.json with atomic writes and corruption recovery. Smart router infers the right workflow from natural language.",
+    "developerName": "bencrooks-dev",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "I want to build a new feature.",
+      "Help me debug this issue.",
+      "Review this code before I merge."
+    ],
+    "websiteURL": "https://github.com/bencrooks-dev/athena",
+    "brandColor": "#7C3AED"
+  }
+}

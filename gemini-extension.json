@@ -1,0 +1,6 @@
+{
+  "name": "athena",
+  "description": "Full-lifecycle workflow orchestrator: brainstorm, plan, build (per-task two-stage review + wave verification), debug, review, ship. 17 skills, 6 agents, smart routing.",
+  "version": "2.3.0",
+  "contextFileName": "GEMINI.md"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "athena",
+  "description": "Full-lifecycle workflow orchestrator — 17 skills, 6 parallel agents, smart routing, scale-aware brainstorming, wave-based execution with per-task two-stage review, status-code protocol, model-tier dispatch, scientific debugging, four-pass code review, auto-trigger hooks (SessionStart + PostToolUse + PreToolUse), pipeline state tracking, recovery playbooks, pause/resume, plan versioning, and zero-dependency visual canvas. Multi-platform: Claude Code, Cursor, Codex, Gemini CLI, OpenCode.",
+  "version": "2.3.0",
+  "author": {
+    "name": "bencrooks-dev"
+  },
+  "homepage": "https://github.com/bencrooks-dev/athena",
+  "repository": "https://github.com/bencrooks-dev/athena",
+  "license": "MIT",
+  "keywords": [
+    "workflow",
+    "orchestration",
+    "tdd",
+    "debugging",
+    "code-review",
+    "coordinator",
+    "brainstorming",
+    "agents",
+    "parallel-execution",
+    "git-worktree",
+    "visual-mockups",
+    "multi-platform",
+    "skill-authoring",
+    "claude-code",
+    "plugin",
+    "verification",
+    "hooks",
+    "auto-trigger"
+  ]
+}

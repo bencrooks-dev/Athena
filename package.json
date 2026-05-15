@@ -1,0 +1,40 @@
+{
+  "name": "athena",
+  "version": "2.3.0",
+  "type": "module",
+  "description": "Full-lifecycle workflow orchestrator — 17 skills, 6 parallel agents, smart routing, pipeline state tracking, recovery playbooks, pause/resume, plan versioning with commit tracing, scale-aware brainstorming, wave-based execution, scientific debugging, four-pass code review, and zero-dependency visual canvas. Multi-platform.",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "bencrooks-dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bencrooks-dev/athena"
+  },
+  "keywords": [
+    "claude-code",
+    "workflow",
+    "orchestration",
+    "tdd",
+    "debugging",
+    "code-review",
+    "plugin",
+    "brainstorming",
+    "agents",
+    "parallel-execution",
+    "git-worktree",
+    "visual-mockups",
+    "multi-platform",
+    "skill-authoring",
+    "state-tracking",
+    "recovery",
+    "pause-resume",
+    "plan-versioning",
+    "hooks",
+    "auto-trigger",
+    "verification"
+  ]
+}

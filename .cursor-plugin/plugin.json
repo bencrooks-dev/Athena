@@ -1,0 +1,28 @@
+{
+  "name": "athena",
+  "displayName": "Athena",
+  "description": "Workflow orchestrator: brainstorm, plan, build (per-task two-stage review + wave verification), debug, review, ship. 17 skills, 6 agents, smart routing.",
+  "version": "2.3.0",
+  "author": {
+    "name": "bencrooks-dev"
+  },
+  "homepage": "https://github.com/bencrooks-dev/athena",
+  "repository": "https://github.com/bencrooks-dev/athena",
+  "license": "MIT",
+  "keywords": [
+    "workflow",
+    "orchestration",
+    "tdd",
+    "debugging",
+    "code-review",
+    "coordinator",
+    "brainstorming",
+    "agents",
+    "parallel-execution",
+    "verification",
+    "hooks"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "hooks": "./hooks/hooks-cursor.json"
+}

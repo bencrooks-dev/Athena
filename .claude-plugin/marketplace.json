@@ -1,0 +1,17 @@
+{
+  "name": "athena",
+  "owner": {
+    "name": "bencrooks-dev"
+  },
+  "plugins": [
+    {
+      "name": "athena",
+      "description": "Full-lifecycle workflow orchestrator — 17 skills, 6 parallel agents, smart routing, scale-aware brainstorming, wave-based execution, scientific debugging, four-pass code review, auto-trigger hooks, pipeline state tracking, recovery playbooks, pause/resume, plan versioning, and zero-dependency visual canvas. Multi-platform: Claude Code, Cursor, Codex, Gemini CLI, OpenCode.",
+      "version": "2.3.0",
+      "source": "./",
+      "author": {
+        "name": "bencrooks-dev"
+      }
+    }
+  ]
+}
